@@ -1,0 +1,27 @@
+{
+    "id": "C4D4D9C2",
+    "path": "~/Documents/projects/ED2.Congo/R/read_ev_veg.R",
+    "project_path": "R/read_ev_veg.R",
+    "type": "r_source",
+    "hash": "3661335833",
+    "contents": "",
+    "dirty": false,
+    "created": 1692956743226.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "tempName": "Untitled2",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "11,23",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1692956757,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1692956757150,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,14 @@
+rm(list = ls())
+
+library(ED2.Congo)
+
+ed2in.ref.file <- "./inputs/ED2IN/ED2IN"
+ED2IN.l <- read_ed2in(ed2in.ref.file)
+
+#lat,lon,opfile, driver file, driver years, csspssfile
+mod.ED2IN <- ED2IN.l
+
+
+write_ed2in.ed2in(ed2in = ED2IN.l,
+                  filename = "./inputs/ED2IN/ED2IN_mod")
+is.ed2in(mod.ED2IN)
