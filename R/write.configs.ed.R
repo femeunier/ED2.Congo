@@ -463,7 +463,7 @@ write.config.xml.ED2 <- function(settings, trait.values, defaults = settings$con
     edhistory <- history
   } else {
     histfile <- paste0("history.r", settings$model$revision)
-    edhistory <- try(eval(str2lang(histfile)), silent = TRUE)
+    edhistory <- ED2.Congo::history.rgit
   }
 
   if(inherits(edhistory, "try-error")) {
